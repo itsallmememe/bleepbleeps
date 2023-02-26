@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://bleepbleeps.itsallmememe.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://bleepbleeps.itsallmememe.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://bleepbleeps.itsallmememe.com/collections/shop.atom"/>
+  <title>BleepBleeps</title>
+  <updated>2021-10-19T22:59:13+01:00</updated>
+  <author>
+    <name>BleepBleeps</name>
+  </author>
+  <entry>
+    <id>https://bleepbleeps.itsallmememe.com/products/24496504848</id>
+    <published>2021-10-19T22:59:13+01:00</published>
+    <updated>2021-10-19T22:59:13+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://bleepbleeps.itsallmememe.com/products/andy-cam-family-camera-video-baby-monitor-pre-order"/>
+    <title>Andy Cam - Family Camera &amp; Video Baby Monitor [pre-order]</title>
+    <s:type>Connected Device</s:type>
+    <s:vendor>BleepBleeps</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0271/6419/products/Andy-Cam.jpg?v=1510146968"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BleepBleeps<br>
+        <strong>Type: </strong>Connected Device<br>
+        <strong>Price: </strong>
+            199.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta charset="utf-8">
+<p>Pre-order discount pricing for a limited time. </p>
+<p>We hope to ship in 2022.</p>
+<p>Cancel your order at any time and get a full refund.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/24496504848</id>
+      <title>Green</title>
+      <s:price currency="GBP">199.00</s:price>
+      <s:sku>BBAC01G</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bleepbleeps.itsallmememe.com/products/4476952445002</id>
+    <published>2021-03-09T17:34:57+00:00</published>
+    <updated>2021-03-09T17:34:57+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://bleepbleeps.itsallmememe.com/products/cable-for-suzy-snooze"/>
+    <title>Cable for Suzy Snooze</title>
+    <s:type>Connected Device</s:type>
+    <s:vendor>BleepBleeps</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0271/6419/products/cable.jpg?v=1579519542"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BleepBleeps<br>
+        <strong>Type: </strong>Connected Device<br>
+        <strong>Price: </strong>
+            7.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Replacement Micro-USB cable for Suzy Snooze</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/4476952445002</id>
+      <title>Default Title</title>
+      <s:price currency="GBP">7.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bleepbleeps.itsallmememe.com/products/24491982864</id>
+    <published>2019-05-28T17:47:54+01:00</published>
+    <updated>2019-05-28T17:47:54+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://bleepbleeps.itsallmememe.com/products/lily-loco-location-tracker-pre-order"/>
+    <title>Lily Loco - Location Tracker [pre-order]</title>
+    <s:type>Connected Device</s:type>
+    <s:vendor>BleepBleeps</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0271/6419/products/Lily-Loco-Pink.jpg?v=1510146087"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BleepBleeps<br>
+        <strong>Type: </strong>Connected Device<br>
+        <strong>Price: </strong>
+            59.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta charset="utf-8">
+<p>Pre-order discount pricing for a limited time. </p>
+<p>We hope to ship in 2019.</p>
+<p>Cancel your order at any time and get a full refund.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/24491982864</id>
+      <title>Pink</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku>BBLL06P</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bleepbleeps.itsallmememe.com/products/24485822480</id>
+    <published>2019-03-02T12:02:50+00:00</published>
+    <updated>2019-03-02T12:02:50+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://bleepbleeps.itsallmememe.com/products/tony-tempa-smart-thermometer-pre-order"/>
+    <title>Tony Tempa - Smart Thermometer [pre-order]</title>
+    <s:type>Connected Device</s:type>
+    <s:vendor>BleepBleeps</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0271/6419/products/Tony-Tempa.jpg?v=1510144162"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BleepBleeps<br>
+        <strong>Type: </strong>Connected Device<br>
+        <strong>Price: </strong>
+            39.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta charset="utf-8">
+<p>Pre-order discount pricing for a limited time. </p>
+<p>We hope to ship in <meta charset="utf-8"><span data-mce-fragment="1">2022</span>.</p>
+<p>Cancel your order at any time and get a full refund.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/24485822480</id>
+      <title>Yellow</title>
+      <s:price currency="GBP">39.00</s:price>
+      <s:sku>BBTONY01Y</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bleepbleeps.itsallmememe.com/products/24494440464</id>
+    <published>2019-03-02T12:02:33+00:00</published>
+    <updated>2019-03-02T12:02:33+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://bleepbleeps.itsallmememe.com/products/hungry-henry-smart-feed-warmer-pre-order"/>
+    <title>Hungry Henry - Smart Feed Warmer [pre-order]</title>
+    <s:type>Connected Device</s:type>
+    <s:vendor>BleepBleeps</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0271/6419/products/Hungry-Henry.jpg?v=1510146689"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BleepBleeps<br>
+        <strong>Type: </strong>Connected Device<br>
+        <strong>Price: </strong>
+            79.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta charset="utf-8">
+<p>Pre-order discount pricing for a limited time. </p>
+<p>We hope to ship in <meta charset="utf-8"><span data-mce-fragment="1">2022</span>.</p>
+<p>Cancel your order at any time and get a full refund.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/24494440464</id>
+      <title>Blue</title>
+      <s:price currency="GBP">79.00</s:price>
+      <s:sku>BBHH01B</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bleepbleeps.itsallmememe.com/products/24068882448</id>
+    <published>2019-03-02T12:00:19+00:00</published>
+    <updated>2019-03-02T12:00:19+00:00</updated>
+    <link rel="alternate" type="text/html" href="https://bleepbleeps.itsallmememe.com/products/tommy-time-smartwatch-tracker"/>
+    <title>Tommy Time - Smartwatch &amp; Tracker [pre-order]</title>
+    <s:type>Connected Device</s:type>
+    <s:vendor>BleepBleeps</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0271/6419/products/BB-Tommy-Time.jpg?v=1510067543"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BleepBleeps<br>
+        <strong>Type: </strong>Connected Device<br>
+        <strong>Price: </strong>
+            129.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta charset="utf-8">
+<p>Pre-order discount pricing for a limited time. </p>
+<p>We hope to ship in <meta charset="utf-8"><span data-mce-fragment="1">2022</span></p>
+<p>Cancel your order at any time and get a full refund.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/24068882448</id>
+      <title>Green</title>
+      <s:price currency="GBP">129.00</s:price>
+      <s:sku>BBTT01G</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+    <published>2018-06-21T10:39:54+01:00</published>
+    <updated>2018-06-21T10:39:54+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://bleepbleeps.itsallmememe.com/products/benjamin-brush-smart-music-toothbrush"/>
+    <title>Benjamin Brush - Smart Music Toothbrush [pre-order]</title>
+    <s:type>Connected Device</s:type>
+    <s:vendor>BleepBleeps</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0271/6419/products/Benjamin-Brush-PomPom-Green.jpg?v=1508751445"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BleepBleeps<br>
+        <strong>Type: </strong>Connected Device<br>
+        <strong>Price: </strong>
+            56.28 - 59.00
+            <a href="https://bleepbleeps.itsallmememe.com/products/benjamin-brush-smart-music-toothbrush">(30 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Pre-order discount pricing for a limited time. </p>
+<meta charset="utf-8">
+<p>Ships in 2021.</p>
+<p>Cancel your order at any time and get a full refund.</p>
+<p> </p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Green / PomPom - for baby teeth / gb</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku>BBBB01B-PG</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Green / PomPom - for baby teeth / eu</title>
+      <s:price currency="GBP">56.28</s:price>
+      <s:sku>BBBB01B-PG</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Green / PomPom - for baby teeth / us</title>
+      <s:price currency="GBP">58.46</s:price>
+      <s:sku>BBBB01B-PG</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Green / Big Brush - for big teeth / gb</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku>BBBB01B-BG</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Green / Big Brush - for big teeth / eu</title>
+      <s:price currency="GBP">56.28</s:price>
+      <s:sku>BBBB01B-BG</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Green / Big Brush - for big teeth / us</title>
+      <s:price currency="GBP">58.46</s:price>
+      <s:sku>BBBB01B-BG</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Yellow / PomPom - for baby teeth / gb</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku>BBBB01B-PY</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Yellow / PomPom - for baby teeth / eu</title>
+      <s:price currency="GBP">56.28</s:price>
+      <s:sku>BBBB01B-PY</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Yellow / PomPom - for baby teeth / us</title>
+      <s:price currency="GBP">58.46</s:price>
+      <s:sku>BBBB01B-PY</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Yellow / Big Brush - for big teeth / gb</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku>BBBB01B-BY</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Yellow / Big Brush - for big teeth / eu</title>
+      <s:price currency="GBP">56.28</s:price>
+      <s:sku>BBBB01B-BY</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Yellow / Big Brush - for big teeth / us</title>
+      <s:price currency="GBP">58.46</s:price>
+      <s:sku>BBBB01B-BY</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Orange / PomPom - for baby teeth / gb</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku>BBBB01B-PO</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Orange / PomPom - for baby teeth / eu</title>
+      <s:price currency="GBP">56.28</s:price>
+      <s:sku>BBBB01B-PO</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Orange / PomPom - for baby teeth / us</title>
+      <s:price currency="GBP">58.46</s:price>
+      <s:sku>BBBB01B-PO</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Orange / Big Brush - for big teeth / gb</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku>BBBB01B-BO</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Orange / Big Brush - for big teeth / eu</title>
+      <s:price currency="GBP">56.28</s:price>
+      <s:sku>BBBB01B-BO</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Orange / Big Brush - for big teeth / us</title>
+      <s:price currency="GBP">58.46</s:price>
+      <s:sku>BBBB01B-BO</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Red / PomPom - for baby teeth / gb</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku>BBBB01B-PR</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Red / PomPom - for baby teeth / eu</title>
+      <s:price currency="GBP">56.28</s:price>
+      <s:sku>BBBB01B-PR</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Red / PomPom - for baby teeth / us</title>
+      <s:price currency="GBP">58.46</s:price>
+      <s:sku>BBBB01B-PR</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Red / Big Brush - for big teeth / gb</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku>BBBB01B-BR</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Red / Big Brush - for big teeth / eu</title>
+      <s:price currency="GBP">56.28</s:price>
+      <s:sku>BBBB01B-BR</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Red / Big Brush - for big teeth / us</title>
+      <s:price currency="GBP">58.46</s:price>
+      <s:sku>BBBB01B-BR</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Pink / PomPom - for baby teeth / gb</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku>BBBB01B-PP</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Pink / PomPom - for baby teeth / eu</title>
+      <s:price currency="GBP">56.28</s:price>
+      <s:sku>BBBB01B-PP</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Pink / PomPom - for baby teeth / us</title>
+      <s:price currency="GBP">58.46</s:price>
+      <s:sku>BBBB01B-PP</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Pink / Big Brush - for big teeth / gb</title>
+      <s:price currency="GBP">59.00</s:price>
+      <s:sku>BBBB01B-BP</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Pink / Big Brush - for big teeth / eu</title>
+      <s:price currency="GBP">56.28</s:price>
+      <s:sku>BBBB01B-BP</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/10036211792</id>
+      <title>Pink / Big Brush - for big teeth / us</title>
+      <s:price currency="GBP">58.46</s:price>
+      <s:sku>BBBB01B-BP</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bleepbleeps.itsallmememe.com/products/6375204357</id>
+    <published>2016-10-05T16:20:00+01:00</published>
+    <updated>2016-10-05T16:20:00+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://bleepbleeps.itsallmememe.com/products/sammy-screamer-motion-alarm"/>
+    <title>Sammy Screamer - Smart Alarm</title>
+    <s:type>Connected Device</s:type>
+    <s:vendor>BleepBleeps</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0271/6419/products/SS-red.png?v=1475696120"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BleepBleeps<br>
+        <strong>Type: </strong>Connected Device<br>
+        <strong>Price: </strong>
+            34.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">A cute little movement sensor that's controlled by your smartphone. Sammy lets you keep an eye on your stuff.</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>alarm</s:tag>
+    <s:tag>baby</s:tag>
+    <s:tag>BleepBleeps</s:tag>
+    <s:tag>connected</s:tag>
+    <s:tag>kids</s:tag>
+    <s:tag>motionalarm</s:tag>
+    <s:tag>new baby</s:tag>
+    <s:tag>Parenting</s:tag>
+    <s:tag>smart</s:tag>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/6375204357</id>
+      <title>Red</title>
+      <s:price currency="GBP">34.00</s:price>
+      <s:sku>BBSS01R</s:sku>
+      <s:grams>75</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/6375204357</id>
+      <title>Orange</title>
+      <s:price currency="GBP">34.00</s:price>
+      <s:sku>BBSS05O</s:sku>
+      <s:grams>75</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/6375204357</id>
+      <title>Yellow</title>
+      <s:price currency="GBP">34.00</s:price>
+      <s:sku>BBSS02Y</s:sku>
+      <s:grams>75</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/6375204357</id>
+      <title>Green</title>
+      <s:price currency="GBP">34.00</s:price>
+      <s:sku>BBSS03G</s:sku>
+      <s:grams>75</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/6375204357</id>
+      <title>Blue</title>
+      <s:price currency="GBP">34.00</s:price>
+      <s:sku>BBSS06B</s:sku>
+      <s:grams>75</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/6375204357</id>
+      <title>Pink</title>
+      <s:price currency="GBP">34.00</s:price>
+      <s:sku>BBSS04P</s:sku>
+      <s:grams>75</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://bleepbleeps.itsallmememe.com/products/5818191365</id>
+    <published>2016-10-01T21:02:00+01:00</published>
+    <updated>2016-10-01T21:02:00+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://bleepbleeps.itsallmememe.com/products/suzy-snooze-smart-baby-monitor-sleep-trainer-nightlight"/>
+    <title>Suzy Snooze - Smart Nightlight, Sleep Soother and Baby Monitor</title>
+    <s:type>Connected Device</s:type>
+    <s:vendor>BleepBleeps</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0271/6419/products/Suzy-Snooze-daytime.jpg?v=1508752091"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BleepBleeps<br>
+        <strong>Type: </strong>Connected Device<br>
+        <strong>Price: </strong>
+            91.92 - 99.00
+            <a href="https://bleepbleeps.itsallmememe.com/products/suzy-snooze-smart-baby-monitor-sleep-trainer-nightlight">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Created with sleep scientists and hundreds of parents, Suzy Snooze is beautifully designed, intelligent, customisable and connected. And Suzy evolves with your child through their early years - from baby monitor, to lullaby nightlight, to toddler sleep trainer. She's the ultimate sleep tool for families.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/5818191365</id>
+      <title>Orange / gb</title>
+      <s:price currency="GBP">99.00</s:price>
+      <s:sku>BBSZ01O</s:sku>
+      <s:grams>940</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/5818191365</id>
+      <title>Orange / eu</title>
+      <s:price currency="GBP">91.92</s:price>
+      <s:sku>BBSZ01O</s:sku>
+      <s:grams>940</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://bleepbleeps.itsallmememe.com/products/5818191365</id>
+      <title>Orange / us</title>
+      <s:price currency="GBP">98.67</s:price>
+      <s:sku>BBSZ01O</s:sku>
+      <s:grams>940</s:grams>
+    </s:variant>
+  </entry>
+</feed>
