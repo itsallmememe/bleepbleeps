@@ -618,7 +618,10 @@
           }
         });
       }
-    })();</script>
+    })();
+
+
+    </script>
   <script
     id="web-pixels-manager-setup">(function e(e, n, a, o, t) { e && (window.Shopify = window.Shopify || {}, window.Shopify.analytics = window.Shopify.analytics || {}, window.Shopify.analytics.replayQueue = [], window.Shopify.analytics.publish = function (e, n, a) { window.Shopify.analytics.replayQueue.push([e, n, a]) }); var r, i, s, l, d, c, p, u, f = a + "/" + o + "." + function () { var e = "legacy", n = "unknown", a = null, o = navigator.userAgent.match(/(Firefox|Chrome)\/(\d+)/i), t = navigator.userAgent.match(/(Edg)\/(\d+)/i), r = navigator.userAgent.match(/(Version)\/(\d+)(.+)(Safari)\/(\d+)/i); r ? (n = "safari", a = parseInt(r[2], 10)) : t ? (n = "edge", a = parseInt(t[2], 10)) : o && (n = o[1].toLocaleLowerCase(), a = parseInt(o[2], 10)); var i = { chrome: 60, firefox: 55, safari: 11, edge: 80 }[n]; return void 0 !== i && null !== a && i <= a && (e = "modern"), e }() + ".js"; r = { src: f, async: !0, onload: function () { if (e) { var a = window.webPixelsManager.init(e); n(a), window.Shopify.analytics.replayQueue.forEach((function (e) { a.publishCustomEvent(e[0], e[1], e[2]) })), window.Shopify.analytics.replayQueue = [], window.Shopify.analytics.publish = a.publishCustomEvent } }, onerror: function () { var n = (e.storefrontBaseUrl ? e.storefrontBaseUrl.replace(/\/$/, "") : self.location.origin) + "/.well-known/shopify/monorail/unstable/produce_batch", a = JSON.stringify({ metadata: { event_sent_at_ms: (new Date).getTime() }, events: [{ schema_id: "web_pixels_manager_load/2.0", payload: { version: t || "latest", page_url: self.location.href, status: "failed", error_msg: f + " has failed to load" }, metadata: { event_created_at_ms: (new Date).getTime() } }] }); try { if (self.navigator.sendBeacon.bind(self.navigator)(n, a)) return !0 } catch (e) { } const o = new XMLHttpRequest; try { return o.open("POST.html", n, !0), o.setRequestHeader("Content-Type", "text/plain"), o.send(a), !0 } catch (e) { console && console.warn && console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.") } return !1 } }, i = document.createElement("script"), s = r.src, l = r.async || !0, d = r.onload, c = r.onerror, p = document.head, u = document.body, i.async = l, i.src = s, d && i.addEventListener("load", d), c && i.addEventListener("error", c), p ? p.appendChild(i) : u ? u.appendChild(i) : console.error("Did not find a head or body element to append the script") })({ shopId: 2716419, storefrontBaseUrl: "https://bleepbleeps.itsallmememe.com", cdnBaseUrl: "https://cdn.shopify.com", surface: "storefront-renderer", enabledBetaFlags: ["web_pixels_use_shop_domain_monorail_endpoint"], webPixelExtensionBaseUrl: "https://cdn.shopify.com", webPixelsConfigList: [], initData: { "customer": null, "cart": null, "productVariants": [], "checkout": null }, }, function pageEvents(webPixelsManagerAPI) { webPixelsManagerAPI.publish("page_viewed"); }, "https://cdn.shopify.com/shopifycloud/web-pixels-manager/0.0.186", "browser", "0.0.186");</script>
 </head>
@@ -652,9 +655,10 @@
 
           <!-- Menu -->
           <ul class="js-list-menu">
-            <li class="products">
-              <a href="#" class="products">Products
-                <img src="./images/t/23/assets/menu_arrow_down.png">
+            <li class="products outerProducts">
+              <script src="./arrowFlipped.js"></script>
+              <a href="" class="products" onclick="flipImage180(document.getElementById('arrow-img'));">Products </a>
+                <img id="arrow-img"src="./images/t/23/assets/menu_arrow_down.png" class="arrow">
             </li>
 
 
@@ -770,7 +774,6 @@
         <p>Suzy Snooze</p>
       </div>
     </div>
-
     <div class="product benjamin-brush">
       <a href="./pages/benjamin-brush-smart-music-toothbrush.html">
         <img class="product-image"
@@ -782,7 +785,6 @@
         <p>Benjamin Brush</p>
       </div>
     </div>
-
     <div class="product tonyTempa">
       <a href="./pages/tony-tempa-smart-thermometer.html"><img class="product-image"
           src="./images/t/23/assets/tony-tempa-home2812.png"></a>
@@ -799,9 +801,6 @@
         <p>Lily Loco</p>
       </div>
     </div>
-
-
-
     <div class="product hungry-henry">
       <!--
 		<a target="_blank" class="kickstarter" href="https://www.kickstarter.com/projects/bleepbleeps/309896052?token=575f2b49&utm_source=Website&utm_medium=Products&utm_term=dropdownmenu&utm_content=Badge&utm_campaign=Kickstarter"><img src="//cdn.shopify.com/s/files/1/0271/6419/t/23/assets/kickstarter.svg?v=48434714876727622391521011263"></a>
@@ -822,7 +821,6 @@
         <p>Andy Cam</p>
       </div>
     </div>
-
     <div class="product tommy-time">
       <a href="./pages/tommy-time-location-watch.html"><img class="product-image"
           src="./images/t/23/assets/tommy-time-home81ba.png"></a>
@@ -831,25 +829,12 @@
         <p>Tommy Time</p>
       </div>
     </div>
-
-
-
-
-
-
-
-
-
   </div> <!-- lineup -->
-
-
-
-
   <section class="product-lineup">
     <div class="container">
       <div id="logo-box">
         <img
-          src="../cdn.shopify.com/s/files/1/0271/6419/t/23/assets/smart-familybbc2.png?v=174225230199371454641521011295"
+          src="./images/t/23/assets/smart-familybbc2.png"
           alt="BleepBleeps Smart Family">
 
         <div class="product-lineup__movie-button">
@@ -1023,22 +1008,19 @@
     </div>
   </section>
 
-  <section class="app-feature app-feature-blocks white bg-orange">
-    <div class="row row-reverse align-middle">
-      <div class="six columns feature-blocks-image">
-        <img src="./images/t/23/assets/homepage-hero-suzy-mobile2990.png" class="app-lifestyle">
-      </div>
-      <div class="six columns feature-blocks-text">
-        <div class="feature-blocks-content text-center">
-          <h2 class="hero-homepage__title">Say hello to<br> better bedtimes</h2>
-          <p class="padding-bottom-micro h3"><strong>Suzy Snooze</strong> <br> Smart Baby Monitor</p>
-          <a href="./pages/suzy-snooze-smart-nightlight.html" class="button  button--white-mobile">Find
-            out more</a>
-        </div>
+  <section class="hero-homepage">
+    <div class="row" style="background-image: url(./images/t/23/assets/homepage-hero-suzy-mobile2990.png);background-position: center;background-size: 100%; background-repeat: no-repeat;">
+      <div class="five columns">
+            <div class="hero-homepage__content" style="margin-left: 25%;">
+              <h2 class="hero-homepage__title"style="color: white;">Say hello to<br> better bedtimes</h2>
+              <div class="hero-homepage__text">
+                <p class="padding-bottom-micro h3"style="color: white;"><strong>Suzy Snooze</strong> <br> Smart Baby Monitor</p>
+                <a href="/pages/suzy-snooze-baby-monitor" class="button button--orange button--white-mobile">Find out more</a>
+              </div>
+            </div>
       </div>
     </div>
   </section>
-
 
   <section class="app-feature app-feature-blocks white bg-blue">
     <div class="row align-middle">

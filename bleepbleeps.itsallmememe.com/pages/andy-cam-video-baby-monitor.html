@@ -586,9 +586,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <!-- Menu -->
           <ul class="js-list-menu">
-            <li class="products">
-              <a href="#" class="products">Products
-                <img src="../images/t/23/assets/menu_arrow_down.png">
+            <li class="products outerProducts">
+              <script src="../arrowFlipped.js"></script>
+              <a href="" class="products" onclick="flipImage180(document.getElementById('arrow-img'));">Products </a>
+                <img id="arrow-img"src="../images/t/23/assets/menu_arrow_down.png" class="arrow">
             </li>
 
  
@@ -839,39 +840,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<p>Tommy Time</p>
 		</div>
 	</div>
-
-
-	
-	
-  	
-
-	
-  
-  	
 </div> <!-- lineup -->
-
-
-
-
-	
-
-
-
 <section class="hero container" >
   <div style="display: flex;flex-direction: row;align-items: center;justify-content: center;">
-    <img src="../images/t/23/assets/andy-cam-homef308.png" style="height: 600px;width: 200px;margin-left: 100px;margin-bottom: 100px; display: flex" alt="">
-    <div class="twelve columns relative" style="margin-left: 40px;">
+    <img src="../images/t/23/assets/andy-cam-homef308.png" style="height: 100%;width: 200px;margin-left: 100px;margin-bottom: 100px; display: flex;margin-right: 8%; ">
+    <div class="twelve columns relative" style="display: flex;flex-direction: column;">
       <h2>Andy Cam<br><span class="h1">Video Baby Monitor <br> Family Action Camera</span></h2>
       <div class="andy-cam-content">
         <p>The only camera a Smart Family needs</p>
       </div>
-    </div>
-  <div class="row align-middle">
-    <a onclick="handleClick(vids.video2)" 
-    class="button inverted" style="cursor:pointer">
-    Watch the film</a>
-   <script src="./popupMethod.js">
-  </script>
+      <div style="margin-top: 2.5%;">
+        <a onclick="handleClick(vids.video2)" 
+        class="button inverted" style="cursor:pointer">
+        Watch the film</a>
+       <script src="./popupMethod.js">
+      </script>
+      </div>
     </div>
   </div>
 </section>

@@ -581,9 +581,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <!-- Menu -->
           <ul class="js-list-menu">
-            <li class="products">
-              <a href="#" class="products">Products
-                <img src="../images/t/23/assets/menu_arrow_down.png">
+            <li class="products outerProducts">
+              <script src="./arrowFlipped.js"></script>
+              <a href="" class="products" onclick="flipImage180(document.getElementById('arrow-img'));">Products </a>
+                <img id="arrow-img"src="../images/t/23/assets/menu_arrow_down.png" class="arrow">
             </li>
 
  
@@ -675,7 +676,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   </div>
 </nav>
-
 <a href="#" style="display: none;" class="toggle-drawer cart desktop ">My Cart<span id="cart-target-desktop" class="count cart-target"> (0)</span></a>
 
 <!-- Desktop Products Menu -->

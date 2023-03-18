@@ -586,9 +586,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <!-- Menu -->
           <ul class="js-list-menu">
-            <li class="products">
-              <a href="#" class="products">Products
-                <img src="../images/t/23/assets/menu_arrow_down.png">
+            <li class="products outerProducts">
+              <script src="../arrowFlipped.js"></script>
+              <a href="" class="products" onclick="flipImage180(document.getElementById('arrow-img'));">Products </a>
+                <img id="arrow-img"src="../images/t/23/assets/menu_arrow_down.png" class="arrow">
             </li>
 
  
@@ -776,7 +777,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p>Say hello to better bedtimes.</p>
       </div>
 
-      <a onclick="handleClick('../images/t/23/assets/video1.mp4')" 
+      <a onclick="handleClick(vids.video7)" 
       class="button inverted" style="cursor:pointer">
       Watch the film</a>
      <script src="./popupMethod.js">

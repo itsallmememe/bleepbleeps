@@ -586,9 +586,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <!-- Menu -->
           <ul class="js-list-menu">
-            <li class="products">
-              <a href="#" class="products">Products
-                <img src="../images/t/23/assets/menu_arrow_down.png">
+            <li class="products outerProducts">
+              <script src="../arrowFlipped.js"></script>
+              <a href="" class="products" onclick="flipImage180(document.getElementById('arrow-img'));">Products </a>
+                <img id="arrow-img"src="../images/t/23/assets/menu_arrow_down.png" class="arrow">
             </li>
 
  
@@ -683,8 +684,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- fin copier 7ad la7dha -->
 
-<a href="#" style="display: none;" class="toggle-drawer cart desktop ">My Cart<span id="cart-target-desktop"
-    class="count cart-target"> (0)</span></a>
 
 <!-- Desktop Products Menu -->
 <div class="desktop-products-menu">
@@ -835,41 +834,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<p>Tommy Time</p>
 		</div>
 	</div>
-
-
-	
-	
-  	
-
-	
-  
-  	
 </div> <!-- lineup -->
-
-
-
-
-	
-
-<section class="hero container" >
-  <div style="display: flex;flex-direction: row;align-items: center;justify-content: center;">
-    <img src="../images/t/23/assets/tony-tempa-home2812.png" style="height: 600px;width: 200px;margin-bottom: 100px; display: flex" alt="">
-    <div class="twelve columns relative" style="width:40%" >
-      <h2>Andy Cam<br><span class="h1">Video Baby Monitor <br> Family Action Camera</span></h2>
-      <div class="andy-cam-content">
-        <p>The only camera a Smart Family needs</p>
-      </div>
+<section class="hero container" style="background-image: url(../images/t/23/assets/tony-tempa-feature-03ebd9.png);
+background-repeat: no-repeat;background-size: cover;height: 600px;background-position: 10% 40%;">
+  <div class="row padding-macro align-middle">
+   <div class="six columns offset-by-six">
+    <div class="titleInfo" style="margin-top: 20%;">
+     <h2 style="color: white;">Tommy Time<br><span class="h1" style="color: white;">Smartwatch &amp; Tracker</span></h2>
+     <div class="tommy-time-content" >
+      <p style="color: white;">Freedom for kids. Peace of mind for parents.</p>
+     <a onclick="handleClick(vids.video8)" 
+     class="button inverted" style="cursor:pointer;background-color: transparent;border: 1px solid white;">
+     Watch the film</a>
+      <script src="./popupMethod.js">
+     </script>
+     </div>
     </div>
-  <div class="row align-middle">
-    <a onclick="handleClick('../images/t/23/assets/video1.mp4')" 
-    class="button inverted" style="cursor:pointer">
-    Watch the film</a>
-   <script src="./popupMethod.js">
-  </script>
-    </div>
+
+
+   </div>
   </div>
-</section>
-
+ </section>
 
 
 
