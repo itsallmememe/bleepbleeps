@@ -621,7 +621,7 @@
     })();
 
 
-    </script>
+  </script>
   <script
     id="web-pixels-manager-setup">(function e(e, n, a, o, t) { e && (window.Shopify = window.Shopify || {}, window.Shopify.analytics = window.Shopify.analytics || {}, window.Shopify.analytics.replayQueue = [], window.Shopify.analytics.publish = function (e, n, a) { window.Shopify.analytics.replayQueue.push([e, n, a]) }); var r, i, s, l, d, c, p, u, f = a + "/" + o + "." + function () { var e = "legacy", n = "unknown", a = null, o = navigator.userAgent.match(/(Firefox|Chrome)\/(\d+)/i), t = navigator.userAgent.match(/(Edg)\/(\d+)/i), r = navigator.userAgent.match(/(Version)\/(\d+)(.+)(Safari)\/(\d+)/i); r ? (n = "safari", a = parseInt(r[2], 10)) : t ? (n = "edge", a = parseInt(t[2], 10)) : o && (n = o[1].toLocaleLowerCase(), a = parseInt(o[2], 10)); var i = { chrome: 60, firefox: 55, safari: 11, edge: 80 }[n]; return void 0 !== i && null !== a && i <= a && (e = "modern"), e }() + ".js"; r = { src: f, async: !0, onload: function () { if (e) { var a = window.webPixelsManager.init(e); n(a), window.Shopify.analytics.replayQueue.forEach((function (e) { a.publishCustomEvent(e[0], e[1], e[2]) })), window.Shopify.analytics.replayQueue = [], window.Shopify.analytics.publish = a.publishCustomEvent } }, onerror: function () { var n = (e.storefrontBaseUrl ? e.storefrontBaseUrl.replace(/\/$/, "") : self.location.origin) + "/.well-known/shopify/monorail/unstable/produce_batch", a = JSON.stringify({ metadata: { event_sent_at_ms: (new Date).getTime() }, events: [{ schema_id: "web_pixels_manager_load/2.0", payload: { version: t || "latest", page_url: self.location.href, status: "failed", error_msg: f + " has failed to load" }, metadata: { event_created_at_ms: (new Date).getTime() } }] }); try { if (self.navigator.sendBeacon.bind(self.navigator)(n, a)) return !0 } catch (e) { } const o = new XMLHttpRequest; try { return o.open("POST.html", n, !0), o.setRequestHeader("Content-Type", "text/plain"), o.send(a), !0 } catch (e) { console && console.warn && console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.") } return !1 } }, i = document.createElement("script"), s = r.src, l = r.async || !0, d = r.onload, c = r.onerror, p = document.head, u = document.body, i.async = l, i.src = s, d && i.addEventListener("load", d), c && i.addEventListener("error", c), p ? p.appendChild(i) : u ? u.appendChild(i) : console.error("Did not find a head or body element to append the script") })({ shopId: 2716419, storefrontBaseUrl: "https://bleepbleeps.itsallmememe.com", cdnBaseUrl: "https://cdn.shopify.com", surface: "storefront-renderer", enabledBetaFlags: ["web_pixels_use_shop_domain_monorail_endpoint"], webPixelExtensionBaseUrl: "https://cdn.shopify.com", webPixelsConfigList: [], initData: { "customer": null, "cart": null, "productVariants": [], "checkout": null }, }, function pageEvents(webPixelsManagerAPI) { webPixelsManagerAPI.publish("page_viewed"); }, "https://cdn.shopify.com/shopifycloud/web-pixels-manager/0.0.186", "browser", "0.0.186");</script>
 </head>
@@ -643,113 +643,113 @@
 
 
 
-<nav class="main-nav">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="twelve columns">
-        <div class="top">
+  <nav class="main-nav">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="twelve columns">
+          <div class="top">
 
-          <!-- Logo -->
-          <a href="./index.html" class="logo notes"><img alt="Bleep Bleeps"
-              src="./images/t/23/assets/mainLogo.png"></a>
+            <!-- Logo -->
+            <a href="./index.html" class="logo notes"><img alt="Bleep Bleeps"
+                src="./images/t/23/assets/mainLogo.png"></a>
 
-          <!-- Menu -->
-          <ul class="js-list-menu">
-            <li class="products outerProducts">
-              <script src="./arrowFlipped.js"></script>
-              <a href="" class="products" onclick="flipImage180(document.getElementById('arrow-img'));">Products </a>
-                <img id="arrow-img"src="./images/t/23/assets/menu_arrow_down.png" class="arrow">
-            </li>
-
-
-            <li><a class="Suzy Snooze" href="pages/suzy-snooze-smart-nightlight.html">Suzy Snooze</a></li>
-
-            <li><a class="Apps" href="pages/apps.html">Apps</a></li>
-
-            <li><a class="Blog" href="blogs/posts.html">Blog</a></li>
+            <!-- Menu -->
+            <ul class="js-list-menu">
+              <li class="products outerProducts">
+                <script src="./arrowFlipped.js"></script>
+                <a href="" class="products" onclick="flipImage180(document.getElementById('arrow-img'));">Products </a>
+                <img id="arrow-img" src="./images/t/23/assets/menu_arrow_down.png" class="arrow">
+              </li>
 
 
+              <li><a class="Suzy Snooze" href="pages/suzy-snooze-smart-nightlight.html">Suzy Snooze</a></li>
 
-            <li class="product sammy-screamer">
-              <a href="pages/sammy-screamer-motion-alarm.html">
-                <span class="thumb"><img src="./images/t/23/assets/product-slide-11daf.png"></span>
+              <li><a class="Apps" href="pages/apps.html">Apps</a></li>
 
-                <p>Sammy Screamer</p>
-                <span>Motion Alarm</span>
-              </a>
-            </li>
+              <li><a class="Blog" href="blogs/posts.html">Blog</a></li>
 
-            <li class="product suzy-snooze">
-              <a href="./pages/suzy-snooze-smart-nightlight.html">
 
-                <span class="thumb"><img src="./images/t/23/assets/suzy-snooze-sqef34.png"></span>
 
-                <p>Suzy Snooze</p>
-                <span>Smart Nightlight, Sleep Soother, Baby Monitor</span>
-              </a>
-            </li>
+              <li class="product sammy-screamer">
+                <a href="pages/sammy-screamer-motion-alarm.html">
+                  <span class="thumb"><img src="./images/t/23/assets/product-slide-11daf.png"></span>
 
-            <li class="product benjamin-brush">
-              <a href="./pages/benjamin-brush-smart-music-toothbrush.html">
-                <span class="thumb">
-                  <img src="./images/t/23/assets/benjamin-brush-sq41b8.png">
-                </span>
+                  <p>Sammy Screamer</p>
+                  <span>Motion Alarm</span>
+                </a>
+              </li>
 
-                <p>Benjamin Brush</p>
-                <span>Smart Music Toothbrush</span>
-              </a>
-            </li>
+              <li class="product suzy-snooze">
+                <a href="./pages/suzy-snooze-smart-nightlight.html">
 
-            <li class="product tony-tempa">
-              <a href="./pages/tony-tempa-smart-thermometer.html">
-                <span class="thumb"><img src="./images/t/23/assets/tony-tempa-mobile-sqe5d7.png"></span>
+                  <span class="thumb"><img src="./images/t/23/assets/suzy-snooze-sqef34.png"></span>
 
-                <p>Tony Tempa</p>
-                <span>Smart Thermometer</span>
-              </a>
-            </li>
+                  <p>Suzy Snooze</p>
+                  <span>Smart Nightlight, Sleep Soother, Baby Monitor</span>
+                </a>
+              </li>
 
-            <li class="product lily-loco">
-              <a href="./pages/lily-loco-location-tracker.html">
-                <span class="thumb"><img src="./images/t/23/assets/lily-loco-mobile-sq3d18.png"></span>
+              <li class="product benjamin-brush">
+                <a href="./pages/benjamin-brush-smart-music-toothbrush.html">
+                  <span class="thumb">
+                    <img src="./images/t/23/assets/benjamin-brush-sq41b8.png">
+                  </span>
 
-                <p>Lily Loco</p>
-                <span>Location Tracker</span>
-              </a>
-            </li>
-            <li class="product hungry-henry">
-              <a href="./pages/hungry-henry-smart-feed-warmer.html">
-                <span class="thumb"><img src="./images/t/23/assets/hungry-henry-mobile-sqdbac.png"></span>
+                  <p>Benjamin Brush</p>
+                  <span>Smart Music Toothbrush</span>
+                </a>
+              </li>
 
-                <p>Hungry Henry</p>
-                <span>Smart Feed Warmer</span>
-              </a>
-            </li>
+              <li class="product tony-tempa">
+                <a href="./pages/tony-tempa-smart-thermometer.html">
+                  <span class="thumb"><img src="./images/t/23/assets/tony-tempa-mobile-sqe5d7.png"></span>
 
-            <li class="product andy-cam">
-              <a href="./pages/andy-cam-video-baby-monitor.html">
-                <span class="thumb"><img src="./images/t/23/assets/andy-cam-mobile-sq30b7.png"></span>
+                  <p>Tony Tempa</p>
+                  <span>Smart Thermometer</span>
+                </a>
+              </li>
 
-                <p>Andy Cam</p>
-                <span>Video Baby Monitor</span>
-              </a>
-            </li>
+              <li class="product lily-loco">
+                <a href="./pages/lily-loco-location-tracker.html">
+                  <span class="thumb"><img src="./images/t/23/assets/lily-loco-mobile-sq3d18.png"></span>
 
-            <li class="product tommy-time">
-              <a href="./pages/tommy-time-location-watch.html">
-                <span class="thumb"><img src="./images/t/23/assets/tommy-time-sqa7dc.png"></span>
+                  <p>Lily Loco</p>
+                  <span>Location Tracker</span>
+                </a>
+              </li>
+              <li class="product hungry-henry">
+                <a href="./pages/hungry-henry-smart-feed-warmer.html">
+                  <span class="thumb"><img src="./images/t/23/assets/hungry-henry-mobile-sqdbac.png"></span>
 
-                <p>Tommy Time</p>
-                <span>Location Watch</span>
-              </a>
-            </li>
-          </ul>
+                  <p>Hungry Henry</p>
+                  <span>Smart Feed Warmer</span>
+                </a>
+              </li>
+
+              <li class="product andy-cam">
+                <a href="./pages/andy-cam-video-baby-monitor.html">
+                  <span class="thumb"><img src="./images/t/23/assets/andy-cam-mobile-sq30b7.png"></span>
+
+                  <p>Andy Cam</p>
+                  <span>Video Baby Monitor</span>
+                </a>
+              </li>
+
+              <li class="product tommy-time">
+                <a href="./pages/tommy-time-location-watch.html">
+                  <span class="thumb"><img src="./images/t/23/assets/tommy-time-sqa7dc.png"></span>
+
+                  <p>Tommy Time</p>
+                  <span>Location Watch</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
-</nav>
+    </div>
+  </nav>
 
 
   <!-- Desktop Products Menu -->
@@ -776,8 +776,7 @@
     </div>
     <div class="product benjamin-brush">
       <a href="./pages/benjamin-brush-smart-music-toothbrush.html">
-        <img class="product-image"
-          src="./images/t/23/assets/benjamin_home8962.png">
+        <img class="product-image" src="./images/t/23/assets/benjamin_home8962.png">
         <!--           <div class="product-kickstarter"><img class="product-kickstarter-image" src="//cdn.shopify.com/s/files/1/0271/6419/t/23/assets/kickstarter.png?v=99970639885320786861521011263"></div> -->
       </a>
 
@@ -806,7 +805,7 @@
 		<a target="_blank" class="kickstarter" href="https://www.kickstarter.com/projects/bleepbleeps/309896052?token=575f2b49&utm_source=Website&utm_medium=Products&utm_term=dropdownmenu&utm_content=Badge&utm_campaign=Kickstarter"><img src="//cdn.shopify.com/s/files/1/0271/6419/t/23/assets/kickstarter.svg?v=48434714876727622391521011263"></a>
 		-->
       <a href="./pages/hungry-henry-smart-feed-warmer.html"><img class="product-image"
-          src="./images/t/23/assets/hungry-henry-home70de.png" ></a>
+          src="./images/t/23/assets/hungry-henry-home70de.png"></a>
 
       <div class="product-details">
         <p>Hungry Henry</p>
@@ -833,16 +832,13 @@
   <section class="product-lineup">
     <div class="container">
       <div id="logo-box">
-        <img
-          src="./images/t/23/assets/smart-familybbc2.png"
-          alt="BleepBleeps Smart Family">
+        <img src="./images/t/23/assets/smart-familybbc2.png" alt="BleepBleeps Smart Family">
 
         <div class="product-lineup__movie-button">
-          <a onclick="handleClick(vids.video1)" 
-          class="button inverted" style="cursor:pointer">
-          Watch the film</a>
-         <script src="./pages/popupMethod.js">
-        </script>
+          <a onclick="handleClick(vids.video1)" class="button inverted" style="cursor:pointer">
+            Watch the film</a>
+          <script src="./pages/popupMethod.js">
+          </script>
         </div>
       </div>
       <div class="fullrow">
@@ -886,8 +882,7 @@
 
             <div class="product benjaminBrush">
               <a href="./pages/benjamin-brush-smart-music-toothbrush.html">
-                <img class="product-image"
-                  src="./images/t/23/assets/benjamin_home8962.png">
+                <img class="product-image" src="./images/t/23/assets/benjamin_home8962.png">
                 <!--           <div class="product-kickstarter"><img class="product-kickstarter-image" src="//cdn.shopify.com/s/files/1/0271/6419/t/23/assets/kickstarter.png?v=99970639885320786861521011263"></div> -->
               </a>
 
@@ -925,15 +920,14 @@
 
             <div class="product hand">
               <a href="https://bleepbleeps.com/pages/apps" target="_blank">
-                <img class="product-image"
-                  src="./images/t/23/assets/product-hand9c35.png">
+                <img class="product-image" src="./images/t/23/assets/product-hand9c35.png">
               </a>
             </div>
 
             <div class="product suzy-snooze">
               <a href="./pages/suzy-snooze-smart-nightlight.html"><img class="product-image"
                   src="./images/t/23/assets/suzy-snooze-home-2a753.png"></a>
- 
+
 
               <div class="product-details">
                 <div class="lineup-balloon">
@@ -1007,132 +1001,116 @@
       </div>
     </div>
   </section>
-
-  <section class="hero-homepage">
-    <div class="row" style="background-image: url(./images/t/23/assets/homepage-hero-suzy-mobile2990.png);background-position: center;background-size: 100%; background-repeat: no-repeat;">
+  
+  <section class="hero-homepage bg-suzy container bg-orange">
+    <div class="row">
+      <div class="six columns hero-homepage__image">
+        <img src="./images/t/23/assets/homepage-hero-suzy-mobile2990.png">
+      </div>
       <div class="five columns">
-            <div class="hero-homepage__content" style="margin-left: 25%;">
-              <h2 class="hero-homepage__title"style="color: white;">Say hello to<br> better bedtimes</h2>
+            <div class="hero-homepage__content">
+              <h2 class="hero-homepage__title">Say hello to<br> better bedtimes</h2>
               <div class="hero-homepage__text">
-                <p class="padding-bottom-micro h3"style="color: white;"><strong>Suzy Snooze</strong> <br> Smart Baby Monitor</p>
+                <p class="padding-bottom-micro h3"><strong>Suzy Snooze</strong> <br> Smart Baby Monitor</p>
                 <a href="/pages/suzy-snooze-baby-monitor" class="button button--orange button--white-mobile">Find out more</a>
               </div>
-            </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="app-feature app-feature-blocks white bg-blue">
-    <div class="row align-middle">
-      <div class="six columns feature-blocks-image">
-        <img src="./images/t/23/assets/homepage-hero-benjamin-mobile4511.png" class="app-lifestyle">
-      </div>
-      <div class="six columns feature-blocks-text">
-        <div class="feature-blocks-content text-center">
-              <h2 class="hero-homepage__title">Get the whole<br> family brushing for two minutes</h2>
-              <p class="padding-bottom-micro h3"><strong>Benjamin Brush</strong> <br> Smart Music Toothbrush</p>
-                      <a href="pages/benjamin-brush-smart-music-toothbrush.html"
-              class="button button--white-mobile">Find out more</a>
         </div>
       </div>
     </div>
   </section>
 
-
-  <section class="app-feature app-feature-blocks white bg-yellow">
-    <div class="row row-reverse align-middle">
-      <div class="six columns feature-blocks-image">
-        <img src="./images/t/23/assets/homepage-hero-tony-mobilea895.png" class="app-lifestyle">
-      </div>
-      <div class="six columns feature-blocks-text">
-        <div class="feature-blocks-content text-center">
-                   <h2 class="hero-homepage__title">Track the whole family's temperature</h2>
+  <section class="hero-homepage bg-benjamin container bg-green">
+    <div class="row">
+      <div class="five columns">
+        <div class="hero-homepage__content">
+          <h2 class="hero-homepage__title">Track the whole family's temperature</h2>          <div class="hero-homepage__text">
             <p class="padding-bottom-micro h3"><strong>Tony Tempa</strong> <br> Smart Thermometer</p>
-            <a href="pages/tony-tempa-smart-thermometer.html" class="button  button--white-mobile">Find
-              out more</a>
+            <a href="pages/tony-tempa-smart-thermometer.html" class="button  button--white-mobile bggg">Find out more</a>  
+          </div>
+    </div>
         </div>
+      </div>
       </div>
     </div>
   </section>
-  <section class="app-feature app-feature-blocks white bg-red">
-    <div class="row row-reverse align-middle">
-      <div class="six columns feature-blocks-image">
-        <img src="./images/t/23/assets/homepage-hero-sammy-mobile92e8.png" class="app-lifestyle">
+  
+<section class="hero-homepage bg-tony container bg-yellow">
+      <div class="row">
+        <div class="five columns">
+          <div class="hero-homepage__content">
+            <h2 class="hero-homepage__title">Your baby's feed... <br> The right temperature, <br> the right time.</h2>
+             <div class="hero-homepage__text">
+              <p class="padding-bottom-micro h3"><strong>Hungry Henry</strong> <br> Smart Feed Warmer</p>
+              <a href="pages/hungry-henry-smart-feed-warmer.html" class="button  button--white-mobile ybt">Find
+                out more</a>             
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
       </div>
-      <div class="six columns feature-blocks-text">
-        <div class="feature-blocks-content text-center">
-                      <h2 class="hero-homepage__title">Keep an eye<br> on your stuff</h2>
+</section>
+
+  <section class="hero-homepage bg-sammy container bg-red">
+    <div class="row">
+      <div class="five columns">
+        <div class="hero-homepage__content">
+          <h2 class="hero-homepage__title">Keep an eye<br> on your stuff</h2>
+           <div class="hero-homepage__text">
             <p class="padding-bottom-micro h3"><strong>Sammy Screamer</strong> <br> Smart Alarm</p>
-            <a href="pages/sammy-screamer-motion-alarm.html" class="button button--white-mobile">Find out
-              more</a>
+            <a href="pages/sammy-screamer-motion-alarm.html" class="button button--white-mobile rbt">Find out more</a>         
+             </div>
+          </div>
         </div>
+      </div>
       </div>
     </div>
   </section>
 
-  <section class="app-feature app-feature-blocks white bg-blue">
-    <div class="row row-reverse align-middle">
-      <div class="six columns feature-blocks-image">
-        <img src="./images/t/23/assets/homepage-hero-henry-mobile9301.png" class="app-lifestyle">
-      </div>
-      <div class="six columns feature-blocks-text">
-        <div class="feature-blocks-content text-center">
-          <h2 class="hero-homepage__title">Your baby's feed... <br> The right temperature, <br> the right time.</h2>
-            <p class="padding-bottom-micro h3"><strong>Hungry Henry</strong> <br> Smart Feed Warmer</p>
-            <a href="pages/hungry-henry-smart-feed-warmer.html" class="button  button--white-mobile">Find
-              out more</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <section class="app-feature app-feature-blocks white bg-purple">
-    <div class="row row-reverse align-middle">
-      <div class="six columns feature-blocks-image">
-        <img src="./images/t/23/assets/homepage-hero-lily-mobile39d3.png" class="app-lifestyle">
-      </div>
-      <div class="six columns feature-blocks-text">
-        <div class="feature-blocks-content text-center">
-      <h2 class="hero-homepage__title">Peace of mind <br> for parents. Freedom for kids.</h2>
-            <p class="padding-bottom-micro h3"><strong>Lily Loco</strong> <br> Location Tracker</p>
-            <a href="pages/lily-loco-location-tracker.html" class="button  button--white-mobile">Find out
-              more</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="app-feature app-feature-blocks white bg-blue">
-    <div class="row row-reverse align-middle">
-      <div class="six columns feature-blocks-image">
-        <img src="./images/t/23/assets/homepage-hero-andy-mobile6e06.png" class="app-lifestyle">
-      </div>
-      <div class="six columns feature-blocks-text">
-        <div class="feature-blocks-content text-center">
+  <section class="hero-homepage bg-andy container bg-blue">
+    <div class="row">
+      <div class="five columns">
+        <div class="hero-homepage__content">
           <h2 class="hero-homepage__title">The only camera a smart family needs</h2>
+           <div class="hero-homepage__text">
             <p class="padding-bottom-micro h3"><strong>Andy Cam</strong> <br> Video Baby Monitor</p>
-            <a href="pages/andy-cam-video-baby-monitor.html" class="button  button--white-mobile">Find out
-              more</a>
+            <a href="pages/andy-cam-video-baby-monitor.html" class="button  button--white-mobile bbt">Find out more</a>            
+             </div>
+          </div>
         </div>
+      </div>
       </div>
     </div>
   </section>
 
-  <section class="app-feature app-feature-blocks white bg-green">
-    <div class="row row-reverse align-middle">
-      <div class="six columns feature-blocks-image">
-        <img src="./images/t/23/assets/homepage-hero-tommy-mobile4ec9.png" class="app-lifestyle">
-      </div>
-      <div class="six columns feature-blocks-text">
-        <div class="feature-blocks-content text-center">
-                  <h2 class="hero-homepage__title">Track location. <br> Teach the time.</h2>
-            <p class="padding-bottom-micro h3"><strong>Tommy Time</strong> <br> Smartwatch & Tracker</p>
-            <a href="./pages/tommy-time-location-watch.html" class="button  button--white-mobile">Find out
-              more</a>
+  <section class="hero-homepage bg-lily container bg-purple">
+    <div class="row">
+      <div class="five columns">
+        <div class="hero-homepage__content">
+          <h2 class="hero-homepage__title">Peace of mind for parents.Freedom for kids</h2>
+           <div class="hero-homepage__text">
+            <p class="padding-bottom-micro h3"><strong>Lily Loco</strong> <br>Location Tracker</p>
+            <a href="pages/lily-loco-location-tracker.html" class="button  button--white-mobile pbt">Find out more</a>            
+             </div>
+          </div>
         </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero-homepage bg-andy container bg-green">
+    <div class="row">
+      <div class="five columns">
+        <div class="hero-homepage__content">
+          <h2 class="hero-homepage__title">Track location. Teach the time.</h2>
+           <div class="hero-homepage__text">
+            <p class="padding-bottom-micro h3"><strong>Tommy Time</strong> <br> Samrtwatch & Tracker</p>
+            <a href="pages/tommy-time-location-watch.html" class="button  button--white-mobile bggg">Find out more</a>            
+             </div>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   </section>
@@ -1341,6 +1319,58 @@
   </noscript>
 
   <style type="text/css">
+    .bbt{
+    color: #fff;
+    background-color: #0082ca;
+    border-color: #0082ca;
+    }
+    .pbt{
+    color: #fff;
+    background-color: #cf009e;
+    border-color: #cf009e;
+    }
+    .ybt{
+    color: #fff;
+    background-color: #e4aa03;
+    border-color: #e4aa03;
+    }
+    .rbt{
+    color: #fff;
+    background-color: #d6001c;
+    border-color: #d6001c;
+    }
+    .bggg{
+    color: #fff;
+    background-color: #31b700;
+    border-color: #31b700;
+    }
+    .hero-homepage__image{
+      display: none;
+    }
+    .bg-tommy{
+      background-image: url(./images/t/23/assets/tommy.png);
+    }
+    .bg-andy{
+      background-image: url(./images/t/23/assets/andy.png);
+    }
+    .bg-lily{
+      background-image: url(./images/t/23/assets/lily.png);
+    }
+    .bg-henry{
+      background-image: url(./images/t/23/assets/henry.png);
+    }
+    .bg-sammy{
+      background-image: url(./images/t/23/assets/sammy.png);
+    }
+    .bg-tony{
+      background-image: url(./images/t/23/assets/tony.png);
+    }
+    .bg-benjamin{
+      background-image: url(./images/t/23/assets/benjamin.png);
+    }
+    .bg-suzy{
+      background-image: url(./images/t/23/assets/suzy.png);
+    }
     .quantity-breaks-now-cart-total {
       font-weight: bold;
       display: block;
