@@ -41,7 +41,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
   
   
-  
+<link rel="stylesheet" href="../mobile-menu.css">
+ 
 <meta name="p:domain_verify" content="4171d9d9357fa3a285f54070dc38bcc4"/>
 <meta name="google-site-verification" content="VsVDvtmoBvjR1unUYk7ANp5-LTn25-KaO2beTSvb-K8" />
 <meta name="google-site-verification" content="5VF0J6-3f8pJvvLAlqckNWdMoTSqOfgwiejLP7iMLcM" />
@@ -675,6 +676,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </a>
             </li>
           </ul>
+          <div class="right">
+            <!-- Mobile menu -->
+            <div class="toggle-f js-mobile-menu-toggle"></div>
         </div>
       </div>
     </div>
@@ -835,15 +839,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 	</div>
 </div> <!-- lineup -->
-<section class="hero container" style="background-image: url(../images/t/23/assets/tony-tempa-feature-03ebd9.png);
-background-repeat: no-repeat;background-size: cover;height: 600px;background-position: 10% 40%;">
+<section class="hero container tony-tempa">
   <div class="row padding-macro align-middle">
-   <div class="six columns offset-by-six">
-    <div class="titleInfo" style="margin-top: 20%;">
-     <h2 style="color: white;">Tommy Time<br><span class="h1" style="color: white;">Smartwatch &amp; Tracker</span></h2>
+   <div class="six columns offset-by-six fixed-tony">
+    <div class="titleInfo top-f" >
+      <h2 style="color: #fff;">Tony Tempa<br><span class="h1"style="color: #fff;">Smart Thermometer</span></h2>
      <div class="tommy-time-content" >
-      <p style="color: white;">Freedom for kids. Peace of mind for parents.</p>
-     <a onclick="handleClick(vids.video8)" 
+      <p style="color: #fff;">Body temperature tracking and<br>guidance on your smartphone</p>
+           <a onclick="handleClick(vids.video9)" 
      class="button inverted" style="cursor:pointer;background-color: transparent;border: 1px solid white;">
      Watch the film</a>
       <script src="./popupMethod.js">
@@ -1195,6 +1198,54 @@ var google_remarketing_only = true;
 
 
 <style type="text/css">
+  .tony-tempa{
+    background-image: url(../images/t/23/assets/tony-tempa-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    background-position: 10% 40%;
+  }
+   @media (min-width: 0px) and (max-width: 480px){ 
+    .tony-tempa {
+      background-position: -580px center;
+    }
+    .fixed-tony{
+      width: 100% !important;
+    }
+    .top-f{
+      margin-top: 120% !important;
+    }
+    h2 {
+    font-size: 34px;
+    line-height: 34px;
+    padding-bottom: 10px;
+    }
+    .h1 {
+    font-size: 24px;
+    line-height: 24px;
+    }
+    p {
+    font-size: 16px;
+    }
+    .button {
+    margin: 0 auto 20px;
+    }
+  }
+    .button:hover{
+    border: 1px solid #0082ca !important;
+    color: #0082ca;
+    background-color: #fff !important
+  }
+  .button{
+    margin-block: 25px;
+  }
+  .fixed-tony{
+    width: 70%;
+    margin-left: 0 !important;
+  }
+  .top-f{
+    margin-top: 20%;
+  }
 
 .quantity-breaks-now-cart-total {font-weight:bold; display:block; margin-top: 5px;}
 .additional-notes{text-align:right;background-color: #FFFF4D;}

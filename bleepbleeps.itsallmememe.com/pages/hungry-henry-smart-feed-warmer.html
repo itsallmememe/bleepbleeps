@@ -40,7 +40,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
   
   
-  
+<link rel="stylesheet" href="../mobile-menu.css">
+
   
 <meta name="p:domain_verify" content="4171d9d9357fa3a285f54070dc38bcc4"/>
 <meta name="google-site-verification" content="VsVDvtmoBvjR1unUYk7ANp5-LTn25-KaO2beTSvb-K8" />
@@ -675,6 +676,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </a>
             </li>
           </ul>
+          <div class="right">
+            <!-- Mobile menu -->
+            <div class="toggle-f js-mobile-menu-toggle"></div>
         </div>
       </div>
     </div>
@@ -769,12 +773,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <section class="hero container trueone" style="background-image: url(../images/t/23/assets/hungry-henry_hero-1.png)">
   <div class="row padding-macro align-middle middle-text">
-    <div class="twelve columns relative ">
+    <div class="twelve columns relative mobile">
       <div class="titleInfo">
-        <h2>Hungry Henry<br><span class="h1">Smart Feed Warmer</span></h2>
+        <h2 style="color: #fff;">Hungry Henry<br><span class="h1"style="color: #fff;">Smart Feed Warmer</span></h2>
       </div>
       <div class="tommy-time-content">
-        <p> Schedule and warm your baby’s feeds</p>
+        <p style="color: #fff;"> Schedule and warm your baby’s feeds</p>
       </div>
       <a onclick="handleClick(vids.video4)" 
       class="button inverted" style="cursor:pointer">
@@ -1163,6 +1167,37 @@ var google_remarketing_only = true;
 
 
 <style type="text/css">
+  @media (max-width:480px){
+    .mobile{
+      position: relative !important;
+      margin-top:70% !important;
+    }
+  }
+  @media (max-width:767px) {
+    .trueone{
+      background-image: url(../images/t/23/assets/hungry-henry_hero-mobile.png) !important;
+      background-position: center !important;
+    }
+    h2{
+      font-size: 34px;
+    line-height: 34px;
+    padding-bottom: 10px;
+    }
+    .mobile{
+        position: relative;
+        margin-top: 38%;
+      }
+  }
+    .button:hover{
+    border: 1px solid #0082ca;
+    color: #0082ca;
+    background-color: #fff !important
+  }
+  .button{
+    border: 1px solid #fff !important;
+    background-color: transparent !important;
+    margin-block: 25px;
+}
   .middle-text{
     top: 25%;
     position: relative;

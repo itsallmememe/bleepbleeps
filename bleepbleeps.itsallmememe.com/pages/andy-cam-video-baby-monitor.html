@@ -41,7 +41,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
   
   
-  
+<link rel="stylesheet" href="../mobile-menu.css">
+
 <meta name="p:domain_verify" content="4171d9d9357fa3a285f54070dc38bcc4"/>
 <meta name="google-site-verification" content="VsVDvtmoBvjR1unUYk7ANp5-LTn25-KaO2beTSvb-K8" />
 <meta name="google-site-verification" content="5VF0J6-3f8pJvvLAlqckNWdMoTSqOfgwiejLP7iMLcM" />
@@ -675,6 +676,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </a>
             </li>
           </ul>
+          <div class="right">
+            <!-- Mobile menu -->
+            <div class="toggle-f js-mobile-menu-toggle"></div>
         </div>
       </div>
     </div>
@@ -841,9 +845,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 	</div>
 </div> <!-- lineup -->
-<section class="hero container trueone" style="background-image: url(../images/t/23/assets/andy-cam-hero-2.png);">
-  <div class="row align-middle relative" style="top: 30%;">
-    <div class="twelve columns relative">
+<section class="hero container trueone bg-image andy-cam"style="background-image: url(../images/t/23/assets/andy-cam-hero-2.png);">
+  <div class="row align-middle relative" style="top: 30%;display: block;">
+    <div class="twelve columns relative mobile">
       <h2 style="color:#fff">Andy Cam<br><span class="h1" style="color: #fff;">Video Baby Monitor <br> Family Action Camera</span></h2>
       <div class="andy-cam-content">
         <p style="color: #fff;">The only camera a Smart Family needs</p>
@@ -1244,6 +1248,18 @@ var google_remarketing_only = true;
 
 
 <style type="text/css">
+  
+@media (min-width: 0px) and (max-width: 480px){
+
+  .bg-image.andy-cam {
+    background-position: center -145px !important;
+    background-image: url(../images/t/23/assets/andy-cam-hero-mobile.png) !important;
+    background-color: #dee8f5 !important;
+  }
+  .mobile{
+    top:30%
+  }
+}
   .button:hover{
     border: 1px solid #0082ca;
     color: #0082ca;

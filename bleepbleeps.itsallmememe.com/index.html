@@ -10,6 +10,8 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
 <head>
+  <!-- <script src="./lazyload/vanilla-lazyload-master/dist/lazyload.min.js"></script>
+  <script src="./lazy.js"></script> -->
   <!--Google Optimize Minimize page flickering -->
   <style>
     .async-hide {
@@ -58,7 +60,7 @@
   <meta name="google-site-verification" content="VsVDvtmoBvjR1unUYk7ANp5-LTn25-KaO2beTSvb-K8" />
   <meta name="google-site-verification" content="5VF0J6-3f8pJvvLAlqckNWdMoTSqOfgwiejLP7iMLcM" />
   <meta name="google-site-verification" content="Ls_JK-Mdroy7HGyOy3ZG9bA9EAbBBMv69Hnrufk-SNA" />
-
+  <link rel="stylesheet" href="./mobile-menu.css">
 
   <!-- Prevent pre-order app to include old jQuery 1.8 -->
   <script>
@@ -744,6 +746,10 @@
                 </a>
               </li>
             </ul>
+            <div class="right">
+              <!-- Mobile menu -->
+              <div class="toggle-f js-mobile-menu-toggle"></div>
+  
           </div>
         </div>
       </div>
@@ -956,9 +962,9 @@
         </div> <!-- /twelve columns -->
 
         <div class="twelve columns product-lineup__movie-button product-lineup__movie-button--mobile">
-          <a href="http://fast.wistia.net/embed/iframe/mzlvp6gblr?popover=true"
-            class="button inverted wistia-popover[height=360,playerColor=3296dc,width=640]">Watch the film</a>
-          <script charset="ISO-8859-1" src="../fast.wistia.com/assets/external/popover-v1.js" async></script>
+          <a onclick="handleClick(vids.video1)"  style="cursor:pointer"
+            class="button inverted">Watch the film</a>
+          <script src="./pages/popupMethod.js" async></script>
         </div>
       </div> <!-- /fullrow -->
     </div> <!-- /container -->
@@ -977,26 +983,26 @@
 
         <ul class="shop-logos">
           <li class="shop-logos__item"><a href="https://www.amazon.com/" target="_blank"><img
-                src="./images/t/23/assets/logo-amazon26ed.png" alt="Amazon logo"></a>
+                src="./images/t/23/assets/logo-amazon26ed.png" alt="Amazon logo" loading="lazy"></a>
           </li>
 
           <li class="shop-logos__item shop-logos__item--smaller-mobile"><a href="https://www.bestbuy.com/"
-              target="_blank"><img src="./images/t/23/assets/logo-bestbuyc89f.png" alt="Bestbuy logo"></a>
+              target="_blank"><img src="./images/t/23/assets/logo-bestbuyc89f.png" alt="Bestbuy logo" loading="lazy"></a>
           </li>
 
           <li class="shop-logos__item shop-logos__item--smaller-mobile">
             <a href="https://www.conranshop.co.uk/" target="_blank"><img src="./images/t/23/assets/logo-conran5f0b.png"
-                alt="Conran shop logo">
+                alt="Conran shop logo" loading="lazy">
             </a>
           </li>
           <li class="shop-logos__item"><a href="https://www.harrods.com/" target="_blank"><img
-                src="./images/t/23/assets/logo-harrods8899.png" alt="Harrods logo"></a>
+                src="./images/t/23/assets/logo-harrods8899.png" alt="Harrods logo" loading="lazy"></a>
           </li>
           <li class="shop-logos__item"><a href="http://www.selfridges.com/" target="_blank"><img
-                src="./images/t/23/assets/logo-selfridgesa439.png" alt="Selfridges logo">.
+                src="./images/t/23/assets/logo-selfridgesa439.png" alt="Selfridges logo" loading="lazy">.
             </a></li>
           <li class="shop-logos__item"><a href="https://www.target.com/" target="_blank"><img
-                src="./images/t/23/assets/logo-targetb2c5.png" Target="logo"></a></li>
+                src="./images/t/23/assets/logo-targetb2c5.png" Target="logo" loading="lazy"></a></li>
         </ul>
       </div>
     </div>
@@ -1005,7 +1011,7 @@
   <section class="hero-homepage bg-suzy container bg-orange">
     <div class="row">
       <div class="six columns hero-homepage__image">
-        <img src="./images/t/23/assets/homepage-hero-suzy-mobile2990.png">
+        <img src="./images/t/23/assets/homepage-hero-suzy-mobile2990.png" loading="lazy">
       </div>
       <div class="five columns">
             <div class="hero-homepage__content">
@@ -1319,6 +1325,8 @@
   </noscript>
 
   <style type="text/css">
+    
+
     .bbt{
     color: #fff;
     background-color: #0082ca;

@@ -1,0 +1,28 @@
+@media (min-width: 0px) and (max-width: 768px){ 
+    .main-nav .top .right .toggle-f.close {
+        background: url(./images/t/23/assets/mobile-menu-close.png) no-repeat !important;
+        background-size: 19px !important;
+      }}
+    
+    
+    
+        @media(max-width:767px){
+          .products,.arrow{
+            display: none !important;
+          }
+        }
+    
+        .toggle-f{
+          background:url(./images/t/23/assets/toggle.png);
+          background-size: 25px;
+          cursor: pointer;
+          height: 19px;
+          float: right;
+          margin-top: 8px;
+          width: 25px;}
+
+@media(min-width:768px){
+  .toggle-f{
+    display: none;
+  }
+}

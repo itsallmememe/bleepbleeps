@@ -53,6 +53,7 @@
 
 
 
+ <link rel="stylesheet" href="../mobile-menu.css">
 
  <meta name="p:domain_verify" content="4171d9d9357fa3a285f54070dc38bcc4" />
  <meta name="google-site-verification" content="VsVDvtmoBvjR1unUYk7ANp5-LTn25-KaO2beTSvb-K8" />
@@ -742,6 +743,9 @@
               </a>
             </li>
           </ul>
+          <div class="right">
+            <!-- Mobile menu -->
+            <div class="toggle-f js-mobile-menu-toggle"></div>
         </div>
       </div>
     </div>
@@ -834,12 +838,11 @@
 
 
  <section class="hero container bg-image tommy-time">
-  <div class="row padding-macro align-middle">
-   <div class="six columns offset-by-six">
-    <div class="titleInfo">
+  <div class="row padding-macro align-middle " >
+   <div class="six columns offset-by-six ">
+    <div class="titleInfo" >
      <h2>Tommy Time<br><span class="h1">Smartwatch &amp; Tracker</span></h2>
     </div>
-
     <div class="tommy-time-content">
      <p>Freedom for kids. Peace of mind for parents.</p>
     </div>
@@ -1344,6 +1347,17 @@ Remarketing tags may not be associated with personally identifiable information 
 
 
  <style type="text/css">
+  @media (max-width:480px){
+      .bg-image.tommy-time {
+    background-image: url(../images/t/23/assets/product-hero-tommy.jpg);
+    background-position: 20% !important;
+}
+  }
+  .bg-image.tommy-time {
+    background-image: url(../images/t/23/assets/product-hero-tommy.jpg);
+    background-position: 15%;
+}
+ 
   .quantity-breaks-now-cart-total {
    font-weight: bold;
    display: block;

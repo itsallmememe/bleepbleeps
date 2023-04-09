@@ -41,7 +41,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
   
   
-  
+<link rel="stylesheet" href="../mobile-menu.css">
+
 <meta name="p:domain_verify" content="4171d9d9357fa3a285f54070dc38bcc4"/>
 <meta name="google-site-verification" content="VsVDvtmoBvjR1unUYk7ANp5-LTn25-KaO2beTSvb-K8" />
 <meta name="google-site-verification" content="5VF0J6-3f8pJvvLAlqckNWdMoTSqOfgwiejLP7iMLcM" />
@@ -674,6 +675,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </a>
             </li>
           </ul>
+          <div class="right">
+            <!-- Mobile menu -->
+            <div class="toggle-f js-mobile-menu-toggle"></div>
         </div>
       </div>
     </div>
@@ -765,19 +769,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	
 
-<section class="hero container trueone" style="background-image: url(../images/t/23/assets/benjamin.png);">
+<section class="hero container trueone bg-image benjamin-brush"style="background-image: url(../images/t/23/assets/benjamin-brush-hero-2.jpg);">
 	<div class="row align-middle "></div>
 		<div class="twelve columns relative middle-text">
 			<div class="titleInfo">
 				<h2>Benjamin Brush<br><span class="h1">Smart Music Toothbrush</span></h2>
 			</div>
-
 			<div class="benjamin-brush-content">
-				<p>Get the whole family brushing for 2 minutes.</p>
+				<p style="color: #0082ca;">Get the whole family brushing for 2 minutes.</p>
 			</div>
-
       <a onclick="handleClick(vids.video5)" 
-      class="button inverted" style="cursor:pointer">
+      class="button inverted" style="cursor:pointer;">
       Watch the film</a>
      <script src="./popupMethod.js">
     </script>
@@ -1329,14 +1331,43 @@ var google_remarketing_only = true;
 
 
 <style type="text/css">
-  .middle-text{
-    top: 25%;
-    position: relative;
-    left: 15%;
-  
+  @media screen and (min-width: 480px) and (max-width: 766px){
+    .middle-text{
+      margin-inline: 0 !important;
+      margin-top: 20% !important;
+    }
   }
+  @media (min-width: 767px) {
+    .middle-text{
+      margin-inline: 13% !important;
+      margin-top: 13.5%;
+    }
+}
+
+@media (max-width: 767px) {
+  .hero.container.trueone .twelve.columns.relative.middle-text{
+    margin-top: 120%;
+  }
+}
+  .hero.container.trueone {
+  position: relative;
+}
+
+.hero.container.trueone .row.align-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero.container.trueone .twelve.columns.relative.middle-text {
+  z-index: 1;
+  position: relative;
+  color: #fff;
+  
+}
   .trueone{
-    background-position: left center;
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
