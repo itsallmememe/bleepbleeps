@@ -1,5 +1,5 @@
 const vids = {
-  'video1': './videos/BBSmartFamily.mp4',
+  'video1': './videos/95753bf857e6cf793838e4a5a107db35.mp4',
   'video2': '../videos/BBAndyCam.mp4',
   'video3': '../videos/BBLilyLoco.mp4',
   'video4': '../videos/BBHungryHenry.mp4',
