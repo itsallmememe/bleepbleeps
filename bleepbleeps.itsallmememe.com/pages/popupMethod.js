@@ -1,13 +1,13 @@
 const vids = {
-  'video1': './videos/BB Smart Family.mp4',
+  'video1': './videos/BBSmartFamily.mp4',
   'video2': '../videos/BBAndyCam.mp4',
-  'video3': '../videos/BB Lily Loco.mp4',
-  'video4': '../videos/BB Hungry Henry.mp4',
-  'video5': '../videos/BB Benjamin Brush.mp4',
-  'video6': '../videos/BB Sammy Screamer.mp4',
-  'video7': '../videos/BB Suzy Snooze.mp4',
-  'video8': '../videos/BB Tommy Time.mp4',
-  'video9': '../videos/BB Tony Tempa.mp4',
+  'video3': '../videos/BBLilyLoco.mp4',
+  'video4': '../videos/BBHungryHenry.mp4',
+  'video5': '../videos/BBBenjaminBrush.mp4',
+  'video6': '../videos/BBSammyScreamer.mp4',
+  'video7': '../videos/BBSuzySnooze.mp4',
+  'video8': '../videos/BBTommyTime.mp4',
+  'video9': '../videos/BBTonyTempa.mp4',
 };
 
 
