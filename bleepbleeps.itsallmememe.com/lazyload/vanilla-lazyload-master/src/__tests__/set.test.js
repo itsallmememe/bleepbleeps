@@ -65,7 +65,7 @@ describe("setSources for image", () => {
 
 describe("setSources for iframe", () => {
   let iframe;
-  const srcToLoad = "http://www.google.it";
+  const srcToLoad = "https://www.google.it";
   const preloadedSrc = srcToLoad + "/doodle";
 
   beforeEach(() => {
